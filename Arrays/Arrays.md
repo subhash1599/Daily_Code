@@ -12,5 +12,5 @@ Delete - At Start/Middle - O(n)
 Update - Modify an element - O(1)
 
 ### Advantages
--Random Access: Here elements are stored in continuous locations right so we can able access the ith element in constant time.
--Cache Friendliness: cache is a memory which is closest to cpu and ideally you want every item of your program is accessed to be there in cache. That happens in array generally while accessing items the preprocessors will prefetch the items which are at nearby locations.
+- Random Access: Here elements are stored in continuous locations right so we can able access the ith element in constant time.  
+- Cache Friendliness: cache is a memory which is closest to cpu and ideally you want every item of your program is accessed to be there in cache. That happens in array generally while accessing items the preprocessors will prefetch the items which are at nearby locations.
