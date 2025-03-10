@@ -1,5 +1,5 @@
-def left_rotate_array(arr):
-    return arr[1:]+arr[:1]
+def left_rotate_array(arr,rotate):
+    return arr[rotate:]+arr[:rotate]
 
 
 def left_rotate_another(arr):
@@ -11,6 +11,6 @@ def left_rotate_another(arr):
     return arr
 
 if __name__=="__main__":
-    print(left_rotate_array([1,2,3]))
-    print(left_rotate_array([30,5,20]))
-    print(left_rotate_another([30,5,20]))
+    print(left_rotate_array([1,2,3,4,5],2))
+    # print(left_rotate_array([30,5,20]))
+    # print(left_rotate_another([30,5,20]))
