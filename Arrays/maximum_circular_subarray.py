@@ -4,7 +4,7 @@ def max_circular_subarray(arr):
         curr_max=arr[i]
         curr_sum=arr[i]
         for j in range(1,len(arr)):
-            index=(i+j)%(len(arr))
+            index=(i+j)%(len(arr)) #when we exceed the array length then will wrap around to the beginning
             curr_sum+=arr[index]
             curr_max=max(curr_max,curr_sum)
         res=max(res,curr_max)
