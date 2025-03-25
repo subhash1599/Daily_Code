@@ -19,4 +19,4 @@ if __name__=="__main__":
     prefix=prefix_sum(arr)
     queries = [(1, 3), (2, 5)]  
     for L, R in queries:
-        print(range_sum(prefix, L, R))  #
+        print(range_sum(prefix, L, R))  
