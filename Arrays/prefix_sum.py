@@ -17,6 +17,6 @@ def range_sum(prefix,L,R):
 if __name__=="__main__":
     arr = [3, 6, 2, 8, 7, 4, 5]
     prefix=prefix_sum(arr)
-    queries = [(1, 3), (2, 5)]  # Queries in (L, R) format
+    queries = [(1, 3), (2, 5)]  
     for L, R in queries:
         print(range_sum(prefix, L, R))  #
